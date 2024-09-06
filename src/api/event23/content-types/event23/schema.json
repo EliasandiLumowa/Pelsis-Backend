@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "event23s",
+  "info": {
+    "singularName": "event23",
+    "pluralName": "event23s",
+    "displayName": "Event23",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "deskripsi": {
+      "type": "text"
+    },
+    "benefit": {
+      "type": "text"
+    },
+    "jam": {
+      "type": "time"
+    },
+    "lokasi": {
+      "type": "string"
+    },
+    "tanggal": {
+      "type": "string"
+    },
+    "seotitle": {
+      "type": "string"
+    }
+  }
+}

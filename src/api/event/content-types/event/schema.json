@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "events",
+  "info": {
+    "singularName": "event",
+    "pluralName": "events",
+    "displayName": "event",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "deskripsi": {
+      "type": "text"
+    },
+    "benefit": {
+      "type": "text"
+    },
+    "jam": {
+      "type": "time"
+    },
+    "lokasi": {
+      "type": "string"
+    },
+    "tanggal": {
+      "type": "string"
+    },
+    "seotitle": {
+      "type": "string"
+    }
+  }
+}

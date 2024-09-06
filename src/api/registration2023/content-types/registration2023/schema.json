@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "registration2023s",
+  "info": {
+    "singularName": "registration2023",
+    "pluralName": "registration2023s",
+    "displayName": "Registration2023"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "namalengkap": {
+      "type": "string"
+    },
+    "ttl": {
+      "type": "string"
+    },
+    "noHP": {
+      "type": "biginteger"
+    },
+    "email": {
+      "type": "email"
+    }
+  }
+}

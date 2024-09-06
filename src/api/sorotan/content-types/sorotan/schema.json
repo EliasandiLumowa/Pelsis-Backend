@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sorotans",
+  "info": {
+    "singularName": "sorotan",
+    "pluralName": "sorotans",
+    "displayName": "Sorotan",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "date": {
+      "type": "date"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}
